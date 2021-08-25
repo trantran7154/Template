@@ -1,0 +1,67 @@
+/*Reset Css*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header{
+    background-color: black;
+    height: 46px;
+}
+
+#menu{
+    
+}
+
+#menu > li{
+    display: inline-block;
+}
+
+#menu li{
+    position: relative;
+}
+
+#menu li a{
+    color: white;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 20px;
+}
+
+#menu > li:hover > a, #menu .submenu li:hover a{
+    color: black;
+    background-color: #ccc;
+    display: block;
+}
+
+#menu .submenu{
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+    list-style: none;
+}
+
+#menu .submenu a{
+    color: black;
+}
+
+#menu li:hover .submenu{
+    display: block;
+}
+
+#slider{
+}
+
+#content{
+
+}
+
+#footer{
+
+}

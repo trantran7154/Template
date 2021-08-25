@@ -15,7 +15,7 @@ html{
 }
 
 #menu{
-    
+    float: left;
 }
 
 #menu > li{
@@ -53,6 +53,24 @@ html{
 
 #menu li:hover .submenu{
     display: block;
+}
+
+/*Btn Search*/
+.search-btn{
+    float: right;
+    line-height: 46px;
+    background-color: black;
+    width: 62px;
+}
+
+.search-btn .search-icon{
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.search-btn:hover{
+    background-color: #f44336;
 }
 
 #slider{
